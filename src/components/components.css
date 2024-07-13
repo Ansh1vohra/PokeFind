@@ -1,10 +1,8 @@
 .bgc{
+    text-align: left;
     background: rgb(44,62,80);
     background: linear-gradient(90deg, rgba(44,62,80,1) 0%, rgba(0,0,0,1) 100%);
 }
- .new_style{
-    background-color: #ffffff;
- }
 
  .imgWidth{
     width:180px;
@@ -39,24 +37,4 @@
     .suggestions{
         width:300px;
     }
-}
-
-@media (min-width: 992px) {
-    .imgcrop {
-        object-fit: cover;
-        height: 450px; /* Adjust this value as needed */
-    }
-}
-
-.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(255, 255, 255);
-    opacity: 1; /* Firefox */
-}
-
-.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: rgb(255, 255, 255);
-}
-
-.form-control::-ms-input-placeholder { /* Microsoft Edge */
-    color: rgb(255, 255, 255);
 }

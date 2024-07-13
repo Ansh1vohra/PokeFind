@@ -1,4 +1,3 @@
-// import ImgSlider from './imageSlider';
 import SearchView from './searchView';
 import SearchingBar from './searchingBar';
 import Heading from './headingOfPage';
@@ -17,7 +16,6 @@ function Home({ searchText, searchResults, setSearchText, suggestions ,isLoading
         searchText={searchText}
         isLoading = {isLoading}
       />
-      {/* <ImgSlider /> */}
     </div>
   )
 }
